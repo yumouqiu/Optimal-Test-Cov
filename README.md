@@ -1,1 +1,1 @@
-# Optimal-Test-1SampleCov
+# Optimal-Test-Cov
