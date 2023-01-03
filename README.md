@@ -4,6 +4,8 @@
 
 **bandcov.R** includes the R functions to call C for the L2 test statistic in Qiu and Chen (2012).
 
-**bandcov.c** includes the C functions for the L2 test statistic in Qiu and Chen (2012).
+**bandcov.c** includes the C functions to compute the L2 test statistic in Qiu and Chen (2012).
 
-**Compile C functions:**
+**Compile C functions:** Run the following line in R to generate ".so" file (for Mac and server) or to generate ".dll" file (for Windows). For Windows systems, please replace the line *dyn.load("bandcov.so")* in the function *QC* in the file **functions.R** by *dyn.load("bandcov.dll")*.
+
+system("R CMD SHLIB -o bandcov.so bandcov.c")
