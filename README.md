@@ -14,6 +14,8 @@ For Windows systems, please replace the line *dyn.load("bandcov.so")* in the fun
 
 **size-normal.R**, **size-normal-p1500.R**, **size-uniform.R** and **size-uniform-p1500.R** are the simulation codes for the sizes of the three tests under normal and uniform distributed data. Those four codes are used to make Table 1 in the paper.
 
-**power-normal-n100.R**, **power-normal-n100-p1500.R**, **power-normal-n150.R**, **power-normal-n150-p1500.R**, **power-uniform-n100.R**, **power-uniform-n100-p1500.R**, **power-uniform-n150.R** and **power-uniform-n150-p1500.R** are the simulation codes for the power of the three tests under normal and uniform distributed data, and sparse signal settings.
+**power-normal-n100.R**, **power-normal-n100-p1500.R**, **power-normal-n150.R**, **power-normal-n150-p1500.R**, **power-uniform-n100.R**, **power-uniform-n100-p1500.R**, **power-uniform-n150.R** and **power-uniform-n150-p1500.R** are the simulation codes for the powers of the three tests under normal and uniform distributed data, and sparse signal settings. Those eights codes are used to generate the results for Figure 2 in the paper.
 
-**plot-new.R** is the R code to make Figures 2 and 3 in the paper for the powers of the three tests.
+**power-normal-n100-dense.R**, **power-normal-n150-dense.R**, **power-uniform-n100-dense.R** and **power-uniform-n150-dense.R** are the simulation codes for the powers of the three tests under normal and uniform distributed data, and dense signal settings. Those four codes are used to generate the results for Figure 3 in the paper.
+
+**plot-new.R** is the R code to plot Figures 2 and 3 in the paper for the powers of the three tests.
